@@ -1,0 +1,5 @@
+platform :osx
+
+target "Example" do
+  pod "DTXcodeUtils", :path => "../"
+end
