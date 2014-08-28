@@ -13,7 +13,7 @@ An example of how to use the library is included in the Example directory. This 
 plugin which toggles Xcode's syntax highlighting on or off.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory. Open the resulting
-xcworkspace in Xcode and run the Example target. This should install the example plugin in xcode. After
+xcworkspace in Xcode and run the Example target. This should install the example plugin in the IDE. After
 restarting Xcode, you should get a "Toggle Highlighting" option in the Xcode Edit menu.
 
 ## Installation

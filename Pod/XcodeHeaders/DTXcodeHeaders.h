@@ -1,7 +1,14 @@
 
 
 @interface DVTTextStorage : NSTextStorage
+/** Whether to syntax highlight the current editor */
 @property(getter=isSyntaxColoringEnabled) BOOL syntaxColoringEnabled;
+
+/** Converts from a character number in the text to a line number */
+- (NSRange)lineRangeForCharacterRange:(NSRange)characterRange;
+
+/** Converts from a line number in the text to a character number */
+- (NSRange)characterRangeForLineRange:(NSRange)lineRange;
 @end
 
 @interface DVTCompletingTextView : NSTextView
