@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "DTXcodeUtils"
+  s.deprecated       = true
   s.version          = "0.1.1"
   s.summary          = "Useful helper functions for writing Xcode plugins"
   s.homepage         = "https://github.com/thurn/DTXcodeUtils"
